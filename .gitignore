@@ -1,0 +1,7 @@
+node_modules
+*.env
+.dist/*
+.devvit/*
+.git/*
+.gitignore
+.DS_Store

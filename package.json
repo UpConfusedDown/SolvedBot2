@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "solvedbot",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "deploy": "devvit upload",
+    "dev": "devvit playtest",
+    "login": "devvit login",
+    "launch": "devvit publish",
+    "type-check": "tsc --build"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.8"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "devvit": "0.12.8",
+    "dotenv-cli": "8.0.0",
+    "typescript": "5.8.3",
+    "vitest": "^4.0.17"
+  }
+}
