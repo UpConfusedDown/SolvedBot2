@@ -1,4 +1,8 @@
-# Getting started with solvedbot
+# Getting started with SolvedBot
+
+**SolvedBot is free and open source for Reddit communities**
+
+> Premium features and hosted analytics coming soon
 
 Your project has been created using a Devvit template.
 
