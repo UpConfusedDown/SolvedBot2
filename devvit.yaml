@@ -1,1 +1,27 @@
 name: solvedbot
+version: 1.0.1
+description: Automate solution tracking for your Reddit Q&A community
+author: UpConfusedDown
+
+# App metadata
+app:
+  name: SolvedBot
+  description: Help moderators and community members easily track which questions have been answered in subreddits focused on help, support, and Q&A.
+  icon: robot
+  
+# Permissions required
+permissions:
+  - modPosts
+  - read
+  - postFlair
+  
+# Configuration options
+config:
+  solved_flair_text:
+    type: string
+    default: "Solved"
+    description: Custom text for the solved flair
+  allow_op_marking:
+    type: boolean
+    default: true
+    description: Allow post authors to mark their own posts as solved
