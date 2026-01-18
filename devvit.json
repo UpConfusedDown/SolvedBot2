@@ -5,12 +5,9 @@
     "entry": "src/main.tsx"
   },
   "permissions": {
-    "redditAPI": {
-      "modPosts": true,
-      "read": true,
-      "postFlair": true,
-      "modLog": true,
-      "wiki": true
+    "reddit": {
+      "enable": true,
+      "scope": "moderator"
     },
     "redis": true
   },
@@ -23,7 +20,7 @@
     "items": [
       {
         "label": "✓ Mark as Solved",
-        "forUserType": "loggedIn",
+        "forUserType": "user",
         "location": "post",
         "endpoint": "/internal/menu/mark-solved"
       },
