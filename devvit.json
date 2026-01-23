@@ -1,6 +1,6 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
-  "name": "solvedbot2",
+  "name": "solvedbot",
   "blocks": {
     "entry": "src/main.tsx"
   },
@@ -23,6 +23,6 @@
     }
   },
   "dev": {
-    "subreddit": "solvedbot2_dev"
+    "subreddit": "solvedbot_dev"
   }
 }
