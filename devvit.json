@@ -1,15 +1,28 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
   "name": "solvedbot2",
+  "blocks": {
+    "entry": "src/main.tsx"
+  },
   "permissions": {
     "reddit": {
       "enable": true,
-      "scope": "user"
+      "scope": "moderator"
     },
     "redis": true
   },
+  "scheduler": {
+    "tasks": {
+      "auto-remove-post": {
+        "endpoint": "/internal/scheduler/auto-remove-post"
+      },
+      "update-stats-wiki": {
+        "endpoint": "/internal/scheduler/update-stats-wiki",
+        "cron": "0 0 * * *"
+      }
+    }
+  },
   "dev": {
     "subreddit": "solvedbot2_dev"
-  },
-  "post": {}
+  }
 }

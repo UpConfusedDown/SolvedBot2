@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "solvedbot2",
-  "version": "1.0.1",
+  "name": "solvedbot",
+  "version": "0.0.12",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -12,11 +12,11 @@
     "type-check": "tsc --build"
   },
   "dependencies": {
-    "@devvit/public-api": "0.12.8"
+    "@devvit/public-api": "^0.12.9"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
-    "devvit": "0.12.8",
+    "devvit": "^0.12.9",
     "dotenv-cli": "8.0.0",
     "typescript": "5.8.3",
     "vitest": "^4.0.17"
